@@ -8,6 +8,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 
+import static hw_17_owner.config.WebDriverProvider.remoteUrl;
+
 public class TestBase {
 
     @BeforeAll
@@ -27,7 +29,9 @@ public class TestBase {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        Attach.addVideo();
-    }
+        if (remoteUrl != null) {
+            Attach.addVideo();
+        }
 
+    }
 }

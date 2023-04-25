@@ -3,7 +3,7 @@ package hw_17_owner.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:${env}.properties"
+        "classpath:${env}.properties" //запуск через терминал gradle clean test -Denv='remote'
 })
 public interface WebDriverConfig extends Config {
 

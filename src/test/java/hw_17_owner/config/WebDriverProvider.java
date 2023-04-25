@@ -8,9 +8,10 @@ import java.util.Map;
 
 public class WebDriverProvider {
 
+
     static WebDriverConfig webConfig = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
     static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class, System.getProperties());
-
+   public static String remoteUrl;
     public static void config() {
 
         Configuration.baseUrl = WebDriverProvider.webConfig.getBaseUrl();
@@ -18,7 +19,7 @@ public class WebDriverProvider {
         Configuration.browser = browserAndVersion[0];
         Configuration.browserVersion = browserAndVersion[1];
         Configuration.browserSize = WebDriverProvider.webConfig.getBrowserSize();
-        String remoteUrl = WebDriverProvider.webConfig.getRemoteUrl();
+        remoteUrl = WebDriverProvider.webConfig.getRemoteUrl();
         if (remoteUrl != null) {
             Configuration.remote = "https://" + WebDriverProvider.authConfig.getRemoteUsername() + ":"
                                    + WebDriverProvider.authConfig.getRemotePassword() + "@"
