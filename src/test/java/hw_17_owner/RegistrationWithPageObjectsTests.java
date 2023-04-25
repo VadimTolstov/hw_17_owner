@@ -1,6 +1,7 @@
 package hw_17_owner;
 
 
+import hw_17_owner.helpers.Regress;
 import hw_17_owner.pages.RegistrationPageFaker;
 import hw_17_owner.pages.components.RegistrationResultsModal;
 import hw_17_owner.utils.DataGenerator;
@@ -22,6 +23,7 @@ public class RegistrationWithPageObjectsTests extends TestBase {
 
     @Test
     @Tag("remote")
+    @Regress
     @DisplayName("Регистрация студента")
     @Owner("vadimT")
     @Severity(SeverityLevel.CRITICAL)
