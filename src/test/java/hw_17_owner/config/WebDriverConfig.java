@@ -1,8 +1,10 @@
-package hw_13_Jenkins_Property.config;
+package hw_17_owner.config;
 
 import org.aeonbits.owner.Config;
 
-@Config.Sources({""})
+@Config.Sources({
+        "classpath:${env}.properties"
+})
 public interface WebDriverConfig extends Config {
 
     @Key("browserAndVersion")
@@ -16,4 +18,7 @@ public interface WebDriverConfig extends Config {
     @Key("browser_size")
     @DefaultValue("1920x1080")
     String getBrowserSize();
+
+    @Key("selenoid_url")
+    String getRemoteUrl();
 }

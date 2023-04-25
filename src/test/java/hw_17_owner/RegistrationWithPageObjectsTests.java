@@ -1,10 +1,10 @@
-package hw_13_Jenkins_Property;
+package hw_17_owner;
 
 
-import hw_13_Jenkins_Property.pages.RegistrationPageFaker;
-import hw_13_Jenkins_Property.pages.components.RegistrationResultsModal;
-import hw_13_Jenkins_Property.utils.DataGenerator;
-import hw_13_Jenkins_Property.model.StudentData;
+import hw_17_owner.pages.RegistrationPageFaker;
+import hw_17_owner.pages.components.RegistrationResultsModal;
+import hw_17_owner.utils.DataGenerator;
+import hw_17_owner.model.StudentData;
 import io.qameta.allure.Link;
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;
@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 
 @DisplayName("Регистрация студента")
 
-public class RegistrationWithPageObjectsFakerTests extends TestBaseFaker {
+public class RegistrationWithPageObjectsTests extends TestBase {
     RegistrationPageFaker registrationPage = new RegistrationPageFaker();
     StudentData studentData = DataGenerator.getRandomStudent();
     RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
@@ -24,7 +24,7 @@ public class RegistrationWithPageObjectsFakerTests extends TestBaseFaker {
     @Tag("remote")
     @DisplayName("Регистрация студента")
     @Owner("vadimT")
-    @Severity(SeverityLevel.BLOCKER)
+    @Severity(SeverityLevel.CRITICAL)
     @Link(value = "DEMOQA Practice Form", url = "https://demoqa.com/automation-practice-form")
     void fillFormTest() {
 

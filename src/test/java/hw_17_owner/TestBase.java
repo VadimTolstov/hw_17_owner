@@ -1,18 +1,14 @@
-package hw_13_Jenkins_Property;
+package hw_17_owner;
 
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import hw_13_Jenkins_Property.config.WebDriverProvider;
-import hw_13_Jenkins_Property.helpers.Attach;
+import hw_17_owner.config.WebDriverProvider;
+import hw_17_owner.helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
-import java.util.Map;
-
-public class TestBaseFaker {
+public class TestBase {
 
     @BeforeAll
 

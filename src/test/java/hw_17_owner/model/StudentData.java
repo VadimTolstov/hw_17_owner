@@ -1,4 +1,4 @@
-package hw_13_Jenkins_Property.model;
+package hw_17_owner.model;
 
 public class StudentData {
 

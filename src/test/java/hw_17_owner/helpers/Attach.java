@@ -1,4 +1,4 @@
-package hw_13_Jenkins_Property.helpers;
+package hw_17_owner.helpers;
 
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;

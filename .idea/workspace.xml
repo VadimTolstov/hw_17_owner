@@ -4,29 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fe5e152-7cda-4da2-b330-6e26b73bc262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vadimTolstov/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/RegistrationWithPageObjectsFakerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/TestBaseFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/config/WebDriverConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/config/WebDriverProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/helpers/Regress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/model/StudentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/pages/RegistrationPageFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/pages/components/RegistrationResultsModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/utils/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/utils/RandomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/auth.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pictures/JAVA_20.6_10.jpg" afterDir="false" />
+    <list default="true" id="7fe5e152-7cda-4da2-b330-6e26b73bc262" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/config/WebDriverProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/remote.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/RegistrationWithPageObjectsFakerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/RegistrationWithPageObjectsFakerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/TestBaseFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/TestBaseFaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/config/WebDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/config/WebDriverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/config/WebDriverProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/helpers/Regress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/helpers/Regress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/model/StudentData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/model/StudentData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/pages/RegistrationPageFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/pages/RegistrationPageFaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/pages/components/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/pages/components/CalendarComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/pages/components/RegistrationResultsModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/pages/components/RegistrationResultsModal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/utils/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/utils/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/utils/RandomUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_17_owner/utils/RandomUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/auth.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/auth.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hw_17_Owner" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hw_17_Owner" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hw_17_Owner" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,7 +87,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/program/IntelliJIDEA/Proect/hw_17_Owner/src/test/resources"
+    "last_opened_file_path": "D:/program/IntelliJIDEA/Proect/hw_17_Owner"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,6 +95,110 @@
       <recent name="D:\program\IntelliJIDEA\Proect\hw_17_Owner\src\test\resources" />
       <recent name="D:\program\IntelliJIDEA\Proect\hw_17_Owner\src\test\java" />
     </key>
+  </component>
+  <component name="RunManager" selected="Gradle.RegistrationWithPageObjectsTests">
+    <configuration name="RegistrationWithPageObjectsFakerTests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_17_owner.RegistrationWithPageObjectsFakerTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationWithPageObjectsFakerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_13_Jenkins_Property.RegistrationWithPageObjectsFakerTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationWithPageObjectsTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hw_17_owner.RegistrationWithPageObjectsTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="hw_17_Owner [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.RegistrationWithPageObjectsTests" />
+        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests (1)" />
+        <item itemvalue="Gradle.hw_17_Owner [allureServe]" />
+        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,6 +209,29 @@
       <option name="presentableId" value="Default" />
       <updated>1682362486927</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1682366532701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682366532701</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>

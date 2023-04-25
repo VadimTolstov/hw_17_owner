@@ -1,7 +1,7 @@
-package hw_13_Jenkins_Property.pages;
+package hw_17_owner.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import hw_13_Jenkins_Property.pages.components.CalendarComponent;
+import hw_17_owner.pages.components.CalendarComponent;
 import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.text;

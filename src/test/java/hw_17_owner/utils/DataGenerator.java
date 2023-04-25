@@ -1,7 +1,7 @@
-package hw_13_Jenkins_Property.utils;
+package hw_17_owner.utils;
 
 import com.github.javafaker.Faker;
-import hw_13_Jenkins_Property.model.StudentData;
+import hw_17_owner.model.StudentData;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

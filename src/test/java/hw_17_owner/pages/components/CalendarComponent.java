@@ -1,4 +1,4 @@
-package hw_13_Jenkins_Property.pages.components;
+package hw_17_owner.pages.components;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
